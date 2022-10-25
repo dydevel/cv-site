@@ -3,3 +3,25 @@
 ---
 
 @import 'modern-resume-theme';
+
+#core-skills-table {
+    table-layout: fixed;
+    h4 {
+        font-size: 2rem;
+    }
+    td {
+        border: 0;
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.layout {
+    .details {
+        justify-content: initial;
+    }
+}
+
+.quote {
+    font-weight: 500;
+}
