@@ -48,10 +48,9 @@ gtag: "G-919GQCF23L"
 # about_title: About Me
 about_profile_image: images/profile-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm an experienced full stack Java & React developer with approaching 20 years of commercial development experience across many sectors. 
-  I have significant experience in developing cloud solutions on AWS using Agile methodologies including Scrum and Kanban. 
-  I have a passion for solving problems with clean simple solutions, exploring new technology and and have an eye for details. 
-  I'm now seeking a Java or full stack contract in a forward thinking technology savvy organisation.
+  I'm a highly experienced Full Stack Java and React Developer with approaching 20 years of commercial development experience across many sectors. 
+  I have a thirst for technology and a drive to seek better, more efficient solutions using the best tools for each situation.
+  Significant experience in developing highly scalable, reliable solutions in the cloud using AWS and a big advocate for Agile methodologies.
 
 content:
   - title: Core Skills # Title for the section
@@ -61,7 +60,7 @@ content:
         <tr>
           <td>
             <h4>Backend</h4>
-            Java, Spring Boot, Hibernate / JPA, NodeJS, RDBMS, Kafka, Microservices
+            Java 11, Spring Boot, Hibernate / JPA, NodeJS, RDBMS, Kafka, Microservices
           </td>
           <td>
             <h4>Platforms</h4>
@@ -76,7 +75,7 @@ content:
       <tr>
         <td>
           <h4>Frontend</h4>
-          Javascript, React, HTML, CSS, Jest
+          Javascript, React, HTML, CSS, Jest, Mocha, NPM, Yarn
         </td>
         <td>
           <h4>Cloud</h4>
@@ -110,12 +109,13 @@ content:
         sub_title: Software Developer (Contract)
         caption: April 2022 - October 2022
         quote: >
-          Java 11, Spring Boot, MySQL, Docker, AWS (ECS, Secrets Manager), Jenkins, K8s, Github
+          Java 11, Spring Boot, MySQL, Docker, AWS (ECS, Secrets Manager), NodeJS, Jenkins, K8s, Github
         description: | # this will include new lines to allow paragraphs
-          Joined an existing fully remote scrum team developing a new modernised version of an API for handling customer baskets for an e-commerce web application. In addition, I also assisted in discovery work required to enable the unification of several disparate internal systems.
-          * Added new features and helped productionize customer basket API
-          * Significantly improved test quality and coverage
-          * Worked on the integration and bug fixing of existing legacy product catalogue API
+          Joined an existing fully remote scrum team developing new microservice APIs for handling customer baskets in an existing e-commerce web application.
+          * Led on the development of the basket migration feature - enabling seamless migration of customer data from the live legacy system
+          * Introduced Junit 5 features improving maintainability of unit tests whilst improving test coverage
+          * Mentored junior team members through code reviews and pairing sessions
+          * Worked closely with QA engineers to triage bugs
 
       - layout: left
         title: Elsevier
@@ -125,11 +125,11 @@ content:
         quote: >
           Java 11, Spring Boot, React, Kafka, RDS / Postgres, Docker, AWS (EKS, S3, CloudFront, WAF), Jenkins, Spinnaker, Cypress
         description: | # this will include new lines to allow paragraphs
-          Led a new fully remote scrum team composed of permanent staff and offshore contractors to build an event driven task framework and UIs for curating data and supporting ML data pipelines. The solution involved the development of:
-          * Kafka event driven micro services using Spring Boot
-          * React micro frontend UIs for actioning data curation tasks 
-          * A Specialist UI for correcting ML data extraction output
-          * New CI/CD pipelines
+          Led a new fully remote, scrum team composed of permanent staff and offshore contractors, building from the ground up, an event driven microservice framework and UIs for curating data and supporting ML data pipelines.
+          * Worked closely with product owners and architects on the overall design of the framework, ensuring a robust application and enabling future reuse across the business.
+          * Designed and oversaw the development of micro-frontend UIs for actioning data curation tasks.
+          * Designed and co-developed a new CI/CD pipeline ensuring deployed code was fully tested and exceeded required quality standards - integrating with tools such as SonarQube and Contrast
+          * Mentored junior team members through code reviews ensuring that the application code, business logic and tests were to the highest standards.
 
       - layout: left
         title: Blackcat Technology Solutions
@@ -139,11 +139,10 @@ content:
         caption: November 2013 - January 2021
         description: | # this will include new lines to allow paragraphs
           Blackcat was an agile software development consultancy, serving both large and small organisations, providing expert software delivery teams producing cutting edge custom technology solutions. 
-          I was involved in numerous and varied projects (details follow).
+          I was involved in numerous and varied projects.
           
           Blackcat ceased trading January 2021.   
-          
-          
+                    
           **Project - Elsevier - Open Access (4 months)**
           
           I joined an existing scrum team on a long running project involving the development of several key public facing web applications. I worked on the development of new application features including updating the existing UI flows, replacing legacy code and integration involving Elsevier’s internal payment and invoicing systems. I worked closely with product owners and technical leads to drive improvements to customer user journeys and expand available payment options driving an increase in market share in the Chinese market. I left the project as Blackcat ended its operations, and was immediately hired in a permanent tech lead role in another division of the business.
@@ -240,8 +239,8 @@ content:
     content: | # this will include new lines to allow paragraphs
       I’m a husband and hands on Dad to a Son and Daughter aged 11 and 6 respectively. 
       When not ferrying children to clubs and lessons, I enjoy playing guitar, and generally enjoy all things guitar related. 
-      I have an interest in motorsports and cars in general.  I’m often found up a ladder ‘DIY-ing’ at the weekend.
-      I enjoy exercising - I’m a regular at the gym, plus I jog and cycle when time and weather allow.  
+      I have an interest in motorsports and cars in general.  I’m often found up a ladder ‘DIY-ing’ at the weekend.  
+      I enjoy exercising - I’m a regular at the gym, plus I jog and cycle when time and weather allow.
 
   - title: LinkedIn Recommendations # Title for the section
     layout: list # Type of content section (list/text)
