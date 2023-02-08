@@ -60,7 +60,7 @@ content:
         <tr>
           <td>
             <h4>Backend</h4>
-            Java 11, Spring Boot, Hibernate / JPA, NodeJS, RDBMS, Kafka, Microservices
+            Java 17, Spring Boot, Hibernate / JPA, NodeJS, RDBMS, Kafka, Microservices
           </td>
           <td>
             <h4>Platforms</h4>
@@ -68,7 +68,7 @@ content:
           </td>
           <td>
             <h4>Databases</h4>
-            MySql, Postgres, Mongo, Elastic Search
+            Oracle, MySql, Postgres, Mongo, Elastic Search
           </td>
         </tr>
 
@@ -83,14 +83,14 @@ content:
         </td>
         <td>
           <h4>Build / Deployment</h4>
-          CI/CD, Jenkins, GitHub Actions
+          CI/CD, Jenkins, GitHub Actions, Ansible
         </td>
       </tr>
 
       <tr>
       <td>
         <h4>Source Control</h4>
-        Git, GitHub, GitLab
+        Git, GitHub, GitLab, Bitbucket
       </td>
       <td>
         <h4>Process</h4>
@@ -101,8 +101,23 @@ content:
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
-    show-first: 3
+    show-first: 4
     content:
+      - layout: left
+        title: PPS
+        link: https://www.pps.edenred.com/
+        sub_title: Software Developer (Contract)
+        caption: November 2022 - Present
+        quote: >
+          Java 17, Spring Boot, Docker/ Docker Swarm, Oracle, AWS, Jenkins, Ansible, Bitbucket
+        description: | # this will include new lines to allow paragraphs
+          Joined a new scrum team responsible for building a new microservice solution that will form an integral part of PPS' payment systems, enabling
+          realtime fraud and money laundering detection.
+          * Implemented a high performance data transformation / adapter service 
+          * Integrated with the Featurespace ARIC events API
+          * Worked closely with platform engineers to setup build pipelines using AWS Code Build, Ansible and Jenkins
+          * Worked closely with QA engineers building automated testing frameworks
+
       - layout: left
         title: GoDaddy
         link: godaddy.com
