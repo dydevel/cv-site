@@ -16,6 +16,14 @@
     }
 }
 
+#hobbies {
+    text-align: center;
+    width: 100%;
+    ul {
+        display: inline-block
+    }
+}
+
 .layout {
     .details {
         justify-content: initial;

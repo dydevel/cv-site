@@ -16,10 +16,10 @@ darkmode: never
 
 # Social links
 #twitter_username: facespics
-github_username:  dydevel
+# github_username:  dydevel
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-facebook_username: "544190085"
+# facebook_username: "544190085"
 # flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: david-young-6263751
@@ -48,9 +48,10 @@ gtag: "G-919GQCF23L"
 # about_title: About Me
 about_profile_image: images/profile-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a highly experienced Full Stack Java and React Developer with approaching 20 years of commercial development experience across many sectors. 
-  I have a thirst for technology and a drive to seek better, more efficient solutions using the best tools for each situation.
-  Significant experience in developing highly scalable, reliable solutions in the cloud using AWS and a big advocate for Agile methodologies.
+  Highly skilled Java developer with expertise in Spring Boot cloud-native microservices (message-driven and RESTful).
+  Seeking to leverage my knowledge to contribute to innovative and challenging projects. 
+  Proven ability to deliver well-structured, maintainable, and efficient code. 
+  I also possess strong capabilities in Javascript & React for front-end development and Python for scripting and data analysis.
 
 content:
   - title: Core Skills # Title for the section
@@ -63,40 +64,40 @@ content:
             Java 17, Spring Boot, Hibernate / JPA, NodeJS, RDBMS, Kafka, Microservices
           </td>
           <td>
-            <h4>Platforms</h4>
-            Kubernetes, Docker
-          </td>
-          <td>
             <h4>Databases</h4>
             Oracle, MySql, Postgres, Mongo, Elastic Search
           </td>
+          <td>
+            <h4>Data Analysis</h4>
+            Python, Jupyter Notebooks, Numpy, Pandas, Scikit-Learn
+          </td>
         </tr>
 
-      <tr>
-        <td>
-          <h4>Frontend</h4>
-          Javascript, React, HTML, CSS, Jest, Mocha, NPM, Yarn
-        </td>
-        <td>
-          <h4>Cloud</h4>
-          AWS, Terraform
-        </td>
-        <td>
-          <h4>Build / Deployment</h4>
-          CI/CD, Jenkins, GitHub Actions, Ansible
-        </td>
-      </tr>
+        <tr>
+          <td>
+            <h4>Frontend</h4>
+            Javascript, React, HTML, CSS, Jest, Mocha, NPM
+          </td>
+          <td>
+            <h4>Cloud</h4>
+            AWS (ECS, SQS, S3, Lambda, VPC...), Terraform
+          </td>
+          <td>
+            <h4>Build / Deployment</h4>
+            CI/CD, Jenkins, GitHub Actions, CodePipeline
+          </td>
+        </tr>
 
-      <tr>
-      <td>
-        <h4>Source Control</h4>
-        Git, GitHub, GitLab, Bitbucket
-      </td>
-      <td>
-        <h4>Process</h4>
-        Agile, Scrum, Kanban, Jira
-      </td>
-      </tr>
+        <tr>
+        <td>
+          <h4>Source Control</h4>
+          Git, GitHub, GitLab, Bitbucket
+        </td>
+        <td>
+          <h4>Process</h4>
+          Agile, Scrum, Kanban, Jira
+        </td>
+        </tr>
       </table>
 
   - title: Experience # Title for the section
@@ -104,19 +105,21 @@ content:
     show-first: 4
     content:
       - layout: left
-        title: PPS
-        link: https://www.pps.edenred.com/
+        title: Edenred PayTech
+        link: https://paytech.edenred.com/
         sub_title: Software Developer (Contract)
         caption: November 2022 - Present
         quote: >
-          Java 17, Spring Boot, Docker/ Docker Swarm, Oracle, AWS, Jenkins, Ansible, Bitbucket
+          Java 17, Spring Boot, Docker, AWS (ECS, SQS, S3), Postgres, Terraform, Jenkins, Bitbucket
         description: | # this will include new lines to allow paragraphs
-          Joined a new scrum team responsible for building a new microservice solution that will form an integral part of PPS' payment systems, enabling
-          realtime fraud and money laundering detection.
-          * Implemented a high performance data transformation / adapter service 
-          * Integrated with the Featurespace ARIC events API
-          * Worked closely with platform engineers to setup build pipelines using AWS Code Build, Ansible and Jenkins
-          * Worked closely with QA engineers building automated testing frameworks
+          Joined a new scrum team and played an integral role in building and architecting a new microservice compliance 
+          solution for PayTech's payment systems. This solution enabled real-time fraud and money laundering detection, 
+          required to meet their compliance obligations.
+          * Implemented a high performance low latency message driven data transformation / adapter services 
+          * Collaborated with external partners to design external facing data collection Rest API
+          * Integrated the Featurespace ARIC events API
+          * Worked closely with platform engineers to configure build pipelines using Maven and AWS CodePipeline
+          * Mentored Junior developers
 
       - layout: left
         title: GoDaddy
@@ -252,11 +255,15 @@ content:
   - title: Hobbies and Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I’m a husband and hands on Dad to a Son and Daughter aged 11 and 6 respectively. 
-      When not ferrying children to clubs and lessons, I enjoy playing guitar, and generally enjoy all things guitar related. 
-      I have an interest in motorsports and cars in general.  I’m often found up a ladder ‘DIY-ing’ at the weekend.  
-      I enjoy exercising - I’m a regular at the gym, plus I jog and cycle when time and weather allow.
-
+      <div id="hobbies">
+        <ul>
+          <li><strong>Music Lover: </strong>Passionate about playing guitar, classic rock and bands like Foo Fighters and Oasis.</li>
+          <li><strong>Formula 1 Follower: </strong>fascinated by the technical aspects and strategic decision-making in F1 races.</li>
+          <li><strong>DIY Enthusiast: </strong>Always up for a challenge, tackling projects around the house and honing my problem-solving skills.</li>
+          <li><strong>Lifelong Learner: </strong>Currently exploring Machine Learning & AI through online courses.</li>
+          <li><strong>Improving Runner: </strong>Recently completed my first 10k (almost hitting my 1-hour goal!), now training for a half marathon.</li>
+        </ul>
+      </div>
   - title: LinkedIn Recommendations # Title for the section
     layout: list # Type of content section (list/text)
     content:
