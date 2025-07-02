@@ -30,10 +30,10 @@ linkedin_username: david-young-6263751
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+# additional_links:
+# - title: The Finance Toolkit
+#  icon: fas fa-globe
+#  url: https://www.thefinancetoolkit.co.uk
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,10 +48,7 @@ gtag: "G-919GQCF23L"
 # about_title: About Me
 about_profile_image: images/profile-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Highly skilled Java developer with expertise in Spring Boot cloud-native microservices (message-driven and RESTful).
-  Seeking to leverage my knowledge to contribute to innovative and challenging projects. 
-  Proven ability to deliver well-structured, maintainable, and efficient code. 
-  I also possess strong capabilities in Javascript & React for front-end development and Python for scripting and data analysis.
+  Highly skilled developer with expertise in the development and deployment of Java / Spring Boot microservices and ReactJS web applications. I’m looking to leverage my knowledge to contribute to innovative and challenging projects, providing technical leadership and excellence. I have a proven ability to deliver well-structured, maintainable and efficient code whilst mentoring others to do likewise. In addition, my wide-ranging experience of AWS and containerisation ensures the delivery of resilient, highly scalable solutions.
 
 content:
   - title: Core Skills # Title for the section
@@ -100,10 +97,43 @@ content:
         </tr>
       </table>
 
+  - title: Personal Projects
+    layout: list
+    content:
+      - layout: left
+        title: The Finance Toolkit
+        link: https://www.thefinancetoolkit.co.uk
+        quote: >
+          ViteJS, ReactJS, Typescript, NPM Workspaces, AWS - Lambda, API Gateway, Cloudfront, SAM
+        description: |
+          In an effort to hone my frontend development skills, which had become rusty after several backend-focused roles, I developed "The Finance Toolkit." 
+          This project was inspired by my prior experience using take-home pay calculators to compare contract day rates and presented an excellent opportunity 
+          o tackle a comprehensive challenge. The website is built using the ViteJS framework, leveraging React and TypeScript for robust functionality, and 
+          Material UI for a polished user interface.
+
+          To ensure the integrity of the calculation logic and to introduce an additional technical challenge, the site incorporates a NodeJS AWS Lambda function, 
+          fronted by an API Gateway, for performing all calculations. The deployment process is streamlined using AWS Serverless Application Model (SAM), and the 
+          website itself is securely hosted in an S3 bucket, utilizing CloudFront as a Content Delivery Network (CDN) for optimal performance and global accessibility.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     show-first: 4
     content:
+      - layout: left
+        title: Twinstream Limited
+        link: https://www.twinstream.com
+        sub_title: Software Developer (Contract)
+        caption: November 2024 - April 2025
+        quote: >
+          Java 21, Spring Boot, Kubernetes (RH OpenShift, EKS), AWS, RDBMs (Postgres, Oracle), Terraform, Bitbucket
+        description: | # this will include new lines to allow paragraphs
+          Provided Java microservice expertise within an agile feature development team responsible for building and extending cross-domain technology components for use in security critical environments. Work included:
+          * Adapting legacy applications to handle high-volume data by focusing on rate limiting, observability, performance and flow prioritization.
+          *	Improving the exceptional release process to allow data flows to proceed after passing required checks & user approvals
+          * Integration with the end customers ticketing and workflow management system. 
+          * Upgrading Java microservices to Java 21 and Spring Boot 3
+          *	Writing Integration & end-to-end application tests 
+
       - layout: left
         title: Edenred PayTech
         link: https://paytech.edenred.com/
